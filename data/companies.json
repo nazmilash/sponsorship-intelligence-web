@@ -1,0 +1,662 @@
+[
+  {
+    "name": "DeepMind Technologies Limited",
+    "industry": "Data&Analytics",
+    "location": "London",
+    "roles": [
+      "Research Scientist",
+      "Research Engineer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Palantir Technologies UK",
+    "industry": "Data&Analytics",
+    "location": "London",
+    "roles": [
+      "Deployment Strategist",
+      "Forward Deployed Engineer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Databricks",
+    "industry": "Data&Analytics",
+    "location": "London",
+    "roles": [
+      "Solutions Architect",
+      "Account Executive"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Snowflake Computing",
+    "industry": "Data&Analytics",
+    "location": "London",
+    "roles": [
+      "Sales Engineer",
+      "Corporate Sales"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "SAS Institute",
+    "industry": "Data&Analytics",
+    "location": "Marlow",
+    "roles": [
+      "Analytical Consultant",
+      "Technical Support"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Experian",
+    "industry": "Data&Analytics",
+    "location": "Nottingham",
+    "roles": [
+      "Credit Analyst",
+      "Data Modeller"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Dunnhumby",
+    "industry": "Data&Analytics",
+    "location": "London",
+    "roles": [
+      "Data Science Manager",
+      "Client Lead"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Kantar",
+    "industry": "Data&Analytics",
+    "location": "London",
+    "roles": [
+      "Market Research Executive",
+      "Survey Analyst"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "RELX Group",
+    "industry": "Data&Analytics",
+    "location": "London",
+    "roles": [
+      "Product Analytics",
+      "Data Governance"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "IHS Markit",
+    "industry": "Data&Analytics",
+    "location": "London",
+    "roles": [
+      "Financial Analyst",
+      "Economic Modeller"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "AstraZeneca UK Limited",
+    "industry": "Healthcare",
+    "location": "Cambridge",
+    "roles": [
+      "Clinical Trial Manager",
+      "QC Analyst"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "GlaxoSmithKline",
+    "industry": "Healthcare",
+    "location": "Brentford",
+    "roles": [
+      "Medical Affairs Director",
+      "Supply Chain Planner"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Pfizer Limited",
+    "industry": "Healthcare",
+    "location": "Sandwich",
+    "roles": [
+      "Regulatory Affairs Specialist",
+      "Biostatistician"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Bupa",
+    "industry": "Healthcare",
+    "location": "London",
+    "roles": [
+      "Registered Nurse",
+      "Care Assistant"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "NHS Professionals",
+    "industry": "Healthcare",
+    "location": "Hemel Hempstead",
+    "roles": [
+      "Bank Nurse",
+      "Midwife"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Roche Products Limited",
+    "industry": "Healthcare",
+    "location": "Welwyn Garden City",
+    "roles": [
+      "Product Specialist",
+      "Medical Liaison"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Novartis Pharmaceuticals",
+    "industry": "Healthcare",
+    "location": "London",
+    "roles": [
+      "Brand Manager",
+      "Patient Access Manager"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Johnson & Johnson",
+    "industry": "Healthcare",
+    "location": "High Wycombe",
+    "roles": [
+      "Sales Representative",
+      "QA Specialist"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Sanofi",
+    "industry": "Healthcare",
+    "location": "Reading",
+    "roles": [
+      "Key Account Manager",
+      "Medical Science Liaison"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Merck Sharp & Dohme",
+    "industry": "Healthcare",
+    "location": "London",
+    "roles": [
+      "Clinical Research Associate",
+      "Policy Manager"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Barclays Bank PLC",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Investment Banker",
+      "Risk Analyst"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "HSBC Bank PLC",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Commercial Banking Manager",
+      "Compliance Officer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Lloyds Banking Group",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Software Engineer",
+      "Product Owner"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "NatWest Group",
+    "industry": "Finance&Accounting",
+    "location": "Edinburgh",
+    "roles": [
+      "Digital Analyst",
+      "fraud investigator"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Standard Chartered",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Trade Finance Manager",
+      "Treasury Analyst"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Aviva PLC",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Actuary",
+      "Underwriter"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Prudential PLC",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Finance Manager",
+      "Risk Manager"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Legal & General Group",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Investment Manager",
+      "Real Estate Analyst"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Schroders",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Portfolio Manager",
+      "Equity Analyst"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "London Stock Exchange Group",
+    "industry": "Finance&Accounting",
+    "location": "London",
+    "roles": [
+      "Market Data Analyst",
+      "Technology Lead"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Google UK Ltd",
+    "industry": "IT&Software",
+    "location": "London",
+    "roles": [
+      "Software Engineer",
+      "Site Reliability Engineer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Microsoft Limited",
+    "industry": "IT&Software",
+    "location": "Reading",
+    "roles": [
+      "Cloud Solution Architect",
+      "Account Executive"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Amazon UK Services Ltd",
+    "industry": "IT&Software",
+    "location": "London",
+    "roles": [
+      "Software Development Engineer",
+      "Operations Manager"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "IBM United Kingdom Limited",
+    "industry": "IT&Software",
+    "location": "London",
+    "roles": [
+      "Consultant",
+      "Data Engineer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Sage Group PLC",
+    "industry": "IT&Software",
+    "location": "Newcastle",
+    "roles": [
+      "Developers",
+      "Customer Success"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Cisco Systems",
+    "industry": "IT&Software",
+    "location": "Feltham",
+    "roles": [
+      "Network Engineer",
+      "Sales Specialist"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Oracle Corporation UK",
+    "industry": "IT&Software",
+    "location": "Reading",
+    "roles": [
+      "Java Developer",
+      "Database Administrator"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "SAP (UK) Limited",
+    "industry": "IT&Software",
+    "location": "Feltham",
+    "roles": [
+      "SAP Consultant",
+      "Project Manager"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Salesforce UK",
+    "industry": "IT&Software",
+    "location": "London",
+    "roles": [
+      "Solution Engineer",
+      "Account Executive"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Arm Limited",
+    "industry": "IT&Software",
+    "location": "Cambridge",
+    "roles": [
+      "Hardware Engineer",
+      "Verification Engineer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "WPP 2005 Limited",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Account Director",
+      "Strategy Director"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Publicis Groupe",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Media Planner",
+      "Programmatic Manager"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Ogilvy",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Art Director",
+      "Account Executive"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Dentsu International",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Digital Performance Director",
+      "Client Partner"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Havas Media",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Communications Planner",
+      "Content Exec"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Omnicom Group",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Finance Director",
+      "HR Business Partner"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Interpublic Group",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Operations Manager",
+      "IT Director"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "McCann Worldgroup",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Integrated Producer",
+      "Strategist"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Saatchi & Saatchi",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Creative Director",
+      "Business Director"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Leo Burnett",
+    "industry": "Marketing_Business",
+    "location": "London",
+    "roles": [
+      "Planner",
+      "Agency Producer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Rolls-Royce PLC",
+    "industry": "Engineering",
+    "location": "Derby",
+    "roles": [
+      "Aerospace Engineer",
+      "Manufacturing Engineer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "BAE Systems",
+    "industry": "Engineering",
+    "location": "London",
+    "roles": [
+      "Systems Engineer",
+      "Naval Architect"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Mott MacDonald",
+    "industry": "Engineering",
+    "location": "Croydon",
+    "roles": [
+      "Civil Engineer",
+      "Transport Planner"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Arup",
+    "industry": "Engineering",
+    "location": "London",
+    "roles": [
+      "Structural Engineer",
+      "Building Services Engineer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Laing O'Rourke",
+    "industry": "Engineering",
+    "location": "Dartford",
+    "roles": [
+      "Site Manager",
+      "Quantity Surveyor"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Atkins",
+    "industry": "Engineering",
+    "location": "Epsom",
+    "roles": [
+      "Geotechnical Engineer",
+      "Ecologist"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Jacobs",
+    "industry": "Engineering",
+    "location": "London",
+    "roles": [
+      "Water Engineer",
+      "Highway Engineer"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Balfour Beatty",
+    "industry": "Engineering",
+    "location": "London",
+    "roles": [
+      "Commercial Manager",
+      "Planner"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Kier Group",
+    "industry": "Engineering",
+    "location": "Manchester",
+    "roles": [
+      "Construction Manager",
+      "Estimator"
+    ],
+    "verified": true,
+    "jobCount": 1
+  },
+  {
+    "name": "Skanska UK",
+    "industry": "Engineering",
+    "location": "Rickmansworth",
+    "roles": [
+      "Design Manager",
+      "Environmental Advisor"
+    ],
+    "verified": true,
+    "jobCount": 1
+  }
+]
