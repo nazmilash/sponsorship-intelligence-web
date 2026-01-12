@@ -20,8 +20,8 @@ export const content = {
         blurText: "Unlock the full list",
     },
     payhip: {
-        embedUrl: "https://payhip.com/b/YOUR_PRODUCT_LINK",
-        buttonText: "Buy Now - £29",
+        embedUrl: "https://payhip.com/b/w61h0",
+        buttonText: "Buy Now - £39",
     },
     footer: {
         copyright: "© 2026 Sponsorship Intelligence. All rights reserved.",
