@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero'
+import PainPoints from '@/components/PainPoints'
 import MentorBio from '@/components/MentorBio'
 import Deliverables from '@/components/Deliverables'
 import DatabasePreview from '@/components/DatabasePreview'
@@ -9,22 +10,22 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-brand-purple/20 selection:text-brand-purple">
 
-      {/* 1. Hero Section (Above the Fold) */}
+      {/* 1. Hero Section (Overhauled) */}
       <Hero />
 
-      {/* 2. The Mentor's Story (Mini-Bio) */}
+      {/* 2. Pain Points (New 'This Is For You') */}
+      <PainPoints />
+
+      {/* 3. The Mentor's Story (My Journey) */}
       <MentorBio />
 
-      {/* 3. What's Inside (The Deliverables) */}
-      <Deliverables />
-
-      {/* 4. The FOMO Preview (The Database) */}
+      {/* 4. The Database Preview (Blurred Sheet - Existing) */}
       <DatabasePreview />
 
-      {/* 5. Social Proof (Testimonials) */}
+      {/* 5. Testimonials (Updated Grid) */}
       <SocialProof />
 
-      {/* 6. Pricing & Guarantee (The Closer) */}
+      {/* 6. Pricing & Guarantee (Existing) */}
       <Pricing />
 
       <footer className="py-12 text-center text-foreground-muted text-sm border-t border-utility-border bg-background-alt">

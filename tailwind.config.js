@@ -24,7 +24,8 @@ module.exports = {
                 'utility-gray': '#F3F4F6',
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
+                sans: ['var(--font-inter)', 'Inter', 'sans-serif'],
+                serif: ['var(--font-playfair)', 'Playfair Display', 'serif'],
             },
             backgroundImage: {
                 'gradient-fade': 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #FFFFFF 100%)',
