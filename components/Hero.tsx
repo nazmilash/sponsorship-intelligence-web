@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2, FileText, Lock, Table2 } from "lucide-react";
+import { content } from "@/content.config";
 
 export default function Hero() {
     return (
@@ -23,9 +24,13 @@ export default function Hero() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
-                            <button className="w-full sm:w-auto px-8 py-4 bg-brand-purple hover:bg-brand-purple-hover text-white text-lg font-bold rounded-lg shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2">
-                                Get Instant Access – £15 <ArrowRight className="w-5 h-5" />
-                            </button>
+                            <a
+                                href={content.payhip.embedUrl}
+                                className="payhip-buy-button w-full sm:w-auto px-8 py-4 bg-brand-purple hover:bg-brand-purple-hover text-white text-lg font-bold rounded-lg shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2"
+                                data-payhip
+                            >
+                                Get Instant Access – £39 <ArrowRight className="w-5 h-5" />
+                            </a>
                             <div className="flex flex-col gap-1 text-xs text-foreground-muted font-medium">
                                 <span className="flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-brand-green" /> Instant Download</span>
                                 <span className="flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-brand-green" /> Updated Monthly</span>

@@ -10,6 +10,8 @@ const sampleCompanies = [
     { name: "PwC", role: "Tax Associate", sector: "Auditing" },
 ];
 
+import { content } from "@/content.config";
+
 export default function DatabasePreview() {
     return (
         <section className="py-20 bg-background-alt border-y border-utility-border">
@@ -48,9 +50,13 @@ export default function DatabasePreview() {
                     {/* Gradient Lock Overlay */}
                     <div className="absolute inset-0 top-16 bg-gradient-to-b from-transparent via-white/60 to-white flex flex-col items-center justify-end pb-12">
                         <div className="text-center">
-                            <button className="px-8 py-3 bg-foreground text-white font-bold rounded-lg shadow-xl hover:scale-105 transition-all flex items-center gap-2 mx-auto mb-3">
+                            <a
+                                href={content.payhip.embedUrl}
+                                className="payhip-buy-button px-8 py-3 bg-foreground text-white font-bold rounded-lg shadow-xl hover:scale-105 transition-all flex items-center gap-2 mx-auto mb-3 cursor-pointer"
+                                data-payhip
+                            >
                                 <Lock className="w-4 h-4" /> Unlock Full List of 50+ Companies
-                            </button>
+                            </a>
                             <p className="text-xs text-foreground-muted font-medium">Join other students getting interviewed</p>
                         </div>
                     </div>

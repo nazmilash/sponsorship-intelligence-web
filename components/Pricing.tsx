@@ -14,6 +14,8 @@ const faqs = [
     }
 ];
 
+import { content } from "@/content.config";
+
 export default function Pricing() {
     return (
         <section className="py-20 px-4 bg-background-alt border-t border-utility-border">
@@ -28,14 +30,18 @@ export default function Pricing() {
                     <div className="p-8 md:p-12 text-center">
                         <div className="text-sm font-bold text-brand-purple mb-2 uppercase tracking-wider">Complete Access</div>
                         <div className="flex items-center justify-center gap-1 mb-6">
-                            <span className="text-2xl text-foreground-muted line-through">£79</span>
+                            <span className="text-2xl text-foreground-muted line-through">£49</span>
                             <span className="text-5xl font-extrabold text-foreground">£39</span>
                             <span className="text-lg text-foreground-muted font-medium">/ One-Time</span>
                         </div>
 
-                        <button className="w-full py-4 bg-brand-purple hover:bg-brand-purple-hover text-white text-xl font-bold rounded-lg shadow-lg hover:shadow-xl transition-all mb-8">
+                        <a
+                            href={content.payhip.embedUrl}
+                            className="payhip-buy-button block w-full py-4 bg-brand-purple hover:bg-brand-purple-hover text-white text-xl font-bold rounded-lg shadow-lg hover:shadow-xl transition-all mb-8 cursor-pointer"
+                            data-payhip
+                        >
                             Get Instant Access
-                        </button>
+                        </a>
 
                         <div className="space-y-3 text-left max-w-xs mx-auto">
                             <div className="flex items-center gap-3">

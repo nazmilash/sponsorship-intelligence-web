@@ -26,7 +26,8 @@ export default function PayhipEmbed() {
 
                     <a
                         href={content.payhip.embedUrl}
-                        className="block w-full py-4 bg-utility-accent text-white font-bold text-center uppercase tracking-widest hover:bg-red-600 transition-all hover:scale-[1.02]"
+                        className="payhip-buy-button block w-full py-4 bg-utility-accent text-white font-bold text-center uppercase tracking-widest hover:bg-red-600 transition-all hover:scale-[1.02]"
+                        data-payhip
                     >
                         {content.payhip.buttonText}
                     </a>
