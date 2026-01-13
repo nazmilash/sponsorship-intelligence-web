@@ -9,23 +9,25 @@ module.exports = {
         extend: {
             colors: {
                 // Base
-                background: '#F9F9F9',
-                foreground: '#111111',
-                // Utility Theme (Mapped to Light Mode)
-                'utility-black': '#FFFFFF', // Card BG
-                'utility-gray': '#F3F4F6', // Secondary BG
+                background: '#FFFFFF',
+                'background-alt': '#F9FAFB',
+                foreground: '#111827',
+                'foreground-muted': '#4B5563',
+
+                // Brand
+                'brand-purple': '#7C3AED', // Electric Purple
+                'brand-purple-hover': '#6D28D9',
+                'brand-green': '#10B981', // Success Green
+
+                // Utility
                 'utility-border': '#E5E7EB',
-                'utility-text': '#111111',
-                'utility-subtext': '#555555',
-                'utility-accent': '#4F46E5', // Trust Blue
-            },
-            backgroundImage: {
-                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-                'gradient-conic':
-                    'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+                'utility-gray': '#F3F4F6',
             },
             fontFamily: {
                 sans: ['Inter', 'sans-serif'],
+            },
+            backgroundImage: {
+                'gradient-fade': 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, #FFFFFF 100%)',
             },
         },
     },

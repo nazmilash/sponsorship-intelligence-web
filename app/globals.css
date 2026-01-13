@@ -5,34 +5,55 @@
 @tailwind utilities;
 
 :root {
-  --foreground-hex: #111111;
-  --background-hex: #F9F9F9;
+  /* Ruthless Mentor Palette */
+  --color-background: #FFFFFF;
+  --color-background-alt: #F9FAFB;
+  --color-foreground: #111827;
+  /* Rich Black */
+  --color-foreground-muted: #4B5563;
+  /* Dark Grey */
+  --color-primary: #7C3AED;
+  /* Electric Purple */
+  --color-accent: #10B981;
+  /* Success Green */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground-hex);
-  background: var(--background-hex);
+  color: var(--color-foreground);
+  background: var(--color-background);
   font-family: 'Inter', sans-serif;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
+  /* Modern tight spacing */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom Utilities for Light Utility Theme */
+/* Custom Utilities for High-Trust Vibe */
+.utility-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
 .utility-border {
   border: 1px solid #E5E7EB;
 }
 
 .utility-card {
   background: #FFFFFF;
-  /* Light background */
   border: 1px solid #E5E7EB;
-  /* Subtle gray border */
-  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  /* Very subtle shadow */
+  transition: all 0.2s ease-in-out;
 }
 
 .utility-card:hover {
-  border-color: #4F46E5;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  /* Softer shadow */
+  border-color: #D1D5DB;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 /* Typography Overrides */
@@ -42,6 +63,12 @@ h3,
 h4,
 h5,
 h6 {
-  letter-spacing: -0.04em;
-  /* Tighter for headlines */
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  color: #111827;
+}
+
+p {
+  line-height: 1.6;
+  color: var(--color-foreground-muted);
 }

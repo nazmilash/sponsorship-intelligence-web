@@ -3,55 +3,59 @@
 import { Lock } from "lucide-react";
 
 const sampleCompanies = [
-    { name: "Barclays", sector: "Finance", status: "Active" },
-    { name: "Deloitte", sector: "Consulting", status: "Active" },
-    { name: "KPMG", sector: "Accounting", status: "Active" },
-    { name: "HSBC", sector: "Banking", status: "Active" },
-    { name: "PwC", sector: "Auditing", status: "Active" },
+    { name: "Barclays", role: "Graduate Analyst", sector: "Finance" },
+    { name: "Deloitte", role: "Consultant", sector: "Consulting" },
+    { name: "KPMG", role: "Audit Associate", sector: "Accounting" },
+    { name: "HSBC", role: "Commercial Banking", sector: "Banking" },
+    { name: "PwC", role: "Tax Associate", sector: "Auditing" },
 ];
 
 export default function DatabasePreview() {
     return (
-        <div className="w-full max-w-4xl mx-auto my-16">
-            <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold">The Data You Need.</h3>
-                <p className="text-utility-subtext">Stop searching. Start applying.</p>
-            </div>
+        <section className="py-20 bg-background-alt border-y border-utility-border">
+            <div className="w-full max-w-4xl mx-auto px-4">
+                <div className="text-center mb-10">
+                    <h3 className="text-2xl font-bold mb-2">Sneak Peek: The Database</h3>
+                    <p className="text-utility-subtext">Real companies. Real roles. Real sponsorship.</p>
+                </div>
 
-            <div className="utility-card rounded-xl overflow-hidden relative">
-                <div className="overflow-x-auto">
-                    <table className="w-full text-left text-sm">
-                        <thead className="bg-utility-gray text-utility-text uppercase tracking-wider font-semibold">
-                            <tr>
-                                <th className="px-6 py-4">Company</th>
-                                <th className="px-6 py-4">Sector</th>
-                                <th className="px-6 py-4">Hiring Status</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y divide-gray-100">
-                            {sampleCompanies.map((company, index) => (
-                                <tr key={index} className={index >= 2 ? "blur-sm opacity-50 select-none" : ""}>
-                                    <td className="px-6 py-4 font-medium">{company.name}</td>
-                                    <td className="px-6 py-4 text-utility-subtext">{company.sector}</td>
-                                    <td className="px-6 py-4">
-                                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                                            {company.status}
-                                        </span>
-                                    </td>
+                <div className="utility-card rounded-xl overflow-hidden relative shadow-md">
+                    <div className="overflow-x-auto">
+                        <table className="w-full text-left text-sm">
+                            <thead className="bg-utility-gray text-foreground font-semibold border-b border-utility-border">
+                                <tr>
+                                    <th className="px-6 py-4 w-1/3">Company</th>
+                                    <th className="px-6 py-4 w-1/3">Role</th>
+                                    <th className="px-6 py-4 w-1/3">Sector</th>
                                 </tr>
-                            ))}
-                        </tbody>
-                    </table>
-                </div>
+                            </thead>
+                            <tbody className="divide-y divide-gray-100 bg-white">
+                                {sampleCompanies.map((company, index) => (
+                                    <tr key={index} className={`transition-opacity ${index >= 2 ? "opacity-40 blur-[2px] select-none" : ""}`}>
+                                        <td className="px-6 py-4 font-medium text-foreground">{company.name}</td>
+                                        <td className="px-6 py-4 text-foreground-muted">{company.role}</td>
+                                        <td className="px-6 py-4">
+                                            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                                                {company.sector}
+                                            </span>
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
 
-                {/* Blur Overlay & CTA */}
-                <div className="absolute inset-0 top-24 bg-gradient-to-b from-transparent to-white/90 flex flex-col items-center justify-end pb-12">
-                    <button className="px-8 py-3 bg-utility-accent text-white font-bold rounded shadow-lg hover:shadow-xl hover:scale-105 transition-all flex items-center gap-2">
-                        <Lock className="w-4 h-4" /> Unlock The Full List - £15
-                    </button>
-                    <p className="text-xs text-utility-subtext mt-4">Includes verified sponsor list & access to community.</p>
+                    {/* Gradient Lock Overlay */}
+                    <div className="absolute inset-0 top-16 bg-gradient-to-b from-transparent via-white/60 to-white flex flex-col items-center justify-end pb-12">
+                        <div className="text-center">
+                            <button className="px-8 py-3 bg-foreground text-white font-bold rounded-lg shadow-xl hover:scale-105 transition-all flex items-center gap-2 mx-auto mb-3">
+                                <Lock className="w-4 h-4" /> Unlock Full List of 50+ Companies
+                            </button>
+                            <p className="text-xs text-foreground-muted font-medium">Join other students getting interviewed</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
