@@ -15,26 +15,42 @@ export default function Home() {
       {/* Section 1: Hero with London Landscape */}
       <Hero />
 
+      <hr className="border-gray-100" />
+
       {/* Section 2: Sneak Peek - CV + Database Preview */}
       <SneakPeek />
+
+      <hr className="border-gray-100" />
 
       {/* Section 3: "This is for you if..." */}
       <PainPoints />
 
+      <hr className="border-gray-100" />
+
       {/* Section 4: What You Get - Two Boxes */}
       <WhatYouGet />
+
+      <hr className="border-gray-100" />
 
       {/* Section 5: My Story */}
       <MentorBio />
 
+      <hr className="border-gray-100" />
+
       {/* Section 6: Testimonials */}
       <SocialProof />
+
+      <hr className="border-gray-100" />
 
       {/* Section 7: Work With Me - Small Card */}
       <WorkWithMe />
 
+      <hr className="border-gray-100" />
+
       {/* Section 8: FAQ Accordion */}
       <FAQ />
+
+      <hr className="border-gray-100" />
 
       {/* Section 9: Final CTA */}
       <Pricing />

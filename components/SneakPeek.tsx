@@ -5,7 +5,7 @@ export default function SneakPeek() {
     const { sneakPeek } = content;
 
     return (
-        <section className="py-20 bg-slate-50">
+        <section id="preview" className="py-20 bg-slate-50">
             <div className="utility-container">
                 <h2 className="text-center mb-12">{sneakPeek.title}</h2>
 
@@ -17,46 +17,13 @@ export default function SneakPeek() {
                             <p className="text-sm text-slate-600">{sneakPeek.cvCard.subtext}</p>
                         </div>
 
-                        <div className="blur-bottom relative bg-slate-100 rounded-lg overflow-hidden" style={{ height: '500px' }}>
-                            <div className="p-8">
-                                <div className="bg-white shadow-sm rounded-lg p-6 mb-4">
-                                    <div className="text-center border-b pb-4 mb-4">
-                                        <h4 className="text-2xl font-bold mb-1">Your Name</h4>
-                                        <p className="text-sm text-slate-600">LinkedIn • Email • Phone • Location</p>
-                                    </div>
-
-                                    <div className="mb-4">
-                                        <h5 className="font-bold text-sm uppercase tracking-wide mb-2 text-blue-600">Professional Summary</h5>
-                                        <p className="text-sm text-slate-700 leading-relaxed">
-                                            Results-driven [Your Role] with [X] years of experience in [Industry/Field].
-                                            Proven track record of [Key Achievement]. Seeking a Skilled Worker visa-sponsored
-                                            role in the UK to leverage expertise in [Skills].
-                                        </p>
-                                    </div>
-
-                                    <div className="mb-4">
-                                        <h5 className="font-bold text-sm uppercase tracking-wide mb-2 text-blue-600">Experience</h5>
-                                        <div className="mb-3">
-                                            <div className="flex justify-between items-start mb-1">
-                                                <p className="font-semibold text-sm">Job Title</p>
-                                                <p className="text-xs text-slate-600">Month Year – Present</p>
-                                            </div>
-                                            <p className="text-xs text-slate-600 mb-2">Company Name, Location</p>
-                                            <ul className="text-sm text-slate-700 space-y-1 ml-4">
-                                                <li className="list-disc">Achievement using action verb + metric + impact</li>
-                                                <li className="list-disc">Project description with quantifiable results</li>
-                                                <li className="list-disc">Responsibility highlighting relevant skills</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <h5 className="font-bold text-sm uppercase tracking-wide mb-2 text-blue-600">Education</h5>
-                                        <p className="font-semibold text-sm">Degree Name</p>
-                                        <p className="text-xs text-slate-600">University Name • Graduation Year</p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="blur-bottom relative bg-slate-100 rounded-lg overflow-hidden border border-slate-200" style={{ height: '500px' }}>
+                            <Image
+                                src="/cv-preview.png"
+                                alt="ATS-Friendly CV Template Preview"
+                                fill
+                                className="object-cover object-top"
+                            />
                         </div>
                     </div>
 

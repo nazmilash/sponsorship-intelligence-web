@@ -1,3 +1,5 @@
+'use client';
+
 import { content } from '@/content.config';
 
 export default function Hero() {
@@ -22,7 +24,7 @@ export default function Hero() {
                     </h1>
 
                     {/* Visual Separator */}
-                    <div className="utility-separator mx-auto"></div>
+                    <div className="h-1 w-full bg-gradient-to-r from-blue-600 to-emerald-500 rounded-full my-8"></div>
 
                     {/* Subheadline */}
                     <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto leading-relaxed">
@@ -30,14 +32,14 @@ export default function Hero() {
                     </p>
 
                     {/* CTA Button */}
-                    <a
-                        href={content.payhip.embedUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <button
+                        onClick={() => {
+                            document.getElementById('preview')?.scrollIntoView({ behavior: 'smooth' });
+                        }}
                         className="btn-primary inline-block mb-4"
                     >
                         {content.hero.ctaPrimary}
-                    </a>
+                    </button>
 
                     {/* Trust Line */}
                     <p className="text-sm md:text-base text-slate-600 font-medium">

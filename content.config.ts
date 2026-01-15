@@ -109,9 +109,6 @@ export const content = {
             { image: "/Testimony_1.png", alt: "LinkedIn testimonial 1" },
             { image: "/Testimony_2.png", alt: "LinkedIn testimonial 2" },
             { image: "/Testimony_3.png", alt: "LinkedIn testimonial 3" },
-            { image: "/Testimony_1.png", alt: "LinkedIn testimonial 4" },
-            { image: "/Testimony_2.png", alt: "LinkedIn testimonial 5" },
-            { image: "/Testimony_3.png", alt: "LinkedIn testimonial 6" },
         ],
     },
 
