@@ -21,12 +21,14 @@ export default function Testimonials() {
                             key={idx}
                             className="bg-transparent"
                         >
-                            <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300">
+                            <div className="relative w-full rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300">
                                 <Image
                                     src={item.image}
                                     alt={item.alt}
-                                    fill
-                                    className="object-contain"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                    className="w-full h-auto"
                                 />
                             </div>
                         </div>
