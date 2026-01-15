@@ -198,7 +198,7 @@ p {
   left: 0;
   right: 0;
   height: 60%;
-  background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(to bottom, transparent 0%, transparent 50%, rgba(255, 255, 255, 0.8) 75%, rgba(255, 255, 255, 1) 100%);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   pointer-events: none;

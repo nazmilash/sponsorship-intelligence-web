@@ -15,7 +15,7 @@ export default function Testimonials() {
                 </div>
 
                 {/* Single Column Stacked Layout */}
-                <div className="max-w-4xl mx-auto space-y-8 mb-16">
+                <div className="max-w-4xl mx-auto space-y-4 mb-16">
                     {testimonials.items.map((item, idx) => (
                         <div
                             key={idx}
