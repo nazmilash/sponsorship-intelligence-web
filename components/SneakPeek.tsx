@@ -22,7 +22,7 @@ export default function SneakPeek() {
                                 src="/cv-preview.png"
                                 alt="ATS-Friendly CV Template Preview"
                                 fill
-                                className="object-contain object-top"
+                                className="object-cover object-top"
                             />
                         </div>
                     </div>
