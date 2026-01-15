@@ -65,12 +65,12 @@ export const content = {
     painPoints: {
         title: "This is for you if…",
         points: [
-            "You keep applying on LinkedIn, Indeed and Job Boards but never hear back",
-            "You don't know which companies actually sponsor international students",
-            "You spend hours tailoring your CV for companies that don't sponsor",
-            "You feel your visa clock ticking and panic is creeping in"
+            "You keep applying on LinkedIn, Indeed and Job Boards but never hear back.",
+            "You don't know which companies actually sponsor international students.",
+            "You spend hours tailoring your CV for companies that don't sponsor.",
+            "You feel your visa clock ticking and panic is creeping in."
         ],
-        closingLine: "If any of this sounds like you — you're not broken. Your system is.",
+        closingLine: "If any of this sounds like you, you're not broken. Your system is.",
     },
 
     whatYouGet: {
@@ -159,7 +159,7 @@ export const content = {
     },
 
     payhip: {
-        embedUrl: "https://payhip.com/b/w61h0",
+        embedUrl: "https://payhip.com/b/cU6dR",
         buttonText: "Get Instant Access — £39",
     },
 
