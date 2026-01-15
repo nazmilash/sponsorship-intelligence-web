@@ -17,13 +17,22 @@ export default function SneakPeek() {
                             <p className="text-sm text-slate-600">{sneakPeek.cvCard.subtext}</p>
                         </div>
 
-                        <div className="blur-bottom relative bg-slate-100 rounded-lg overflow-hidden border border-slate-200" style={{ height: '500px' }}>
+                        <div className="blur-bottom relative bg-slate-100 rounded-lg overflow-hidden border border-slate-200 h-[350px] md:h-[500px]">
                             <Image
                                 src="/cv-preview.png"
                                 alt="ATS-Friendly CV Template Preview"
                                 fill
                                 className="object-cover object-top"
                             />
+                        </div>
+                        <div className="mt-4 text-center">
+                            <a
+                                href={content.payhip.embedUrl}
+                                className="payhip-buy-button inline-flex items-center justify-center px-6 py-2 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition"
+                                data-payhip
+                            >
+                                Grab yours now
+                            </a>
                         </div>
                     </div>
 
@@ -69,8 +78,16 @@ export default function SneakPeek() {
                         </div>
 
                         {/* Unlock overlay */}
-                        <div className="mt-6 p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg border border-blue-200 text-center">
-                            <p className="text-sm font-semibold text-blue-900">🔒 Unlock 175+ more companies</p>
+                        <div className="mt-6 text-center">
+                            <a
+                                href={content.payhip.embedUrl}
+                                className="payhip-buy-button block w-full p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg border border-blue-200 text-center hover:shadow-md transition group"
+                                data-payhip
+                            >
+                                <span className="text-sm font-semibold text-blue-900 group-hover:text-blue-700">
+                                    🔒 Unlock 179+ companies
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>

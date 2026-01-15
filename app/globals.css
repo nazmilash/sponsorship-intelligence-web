@@ -201,7 +201,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 60%;
+  height: 35%;
   background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.9) 60%, rgba(255, 255, 255, 1) 100%);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);

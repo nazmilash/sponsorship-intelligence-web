@@ -1,20 +1,20 @@
 export const content = {
     metadata: {
-        title: "ATS CV Template + UK Sponsorship Companies | Stop Wasting Applications",
-        description: "Get the ATS-friendly CV template and 179+ verified UK companies that sponsor international students. Built by someone who went through the same struggle.",
+        title: "My ATS CV Template + UK Sponsorship Companies | Stop Wasting Applications",
+        description: "Get my ATS-friendly CV template and 179+ verified UK companies that sponsor international students. Built by someone who went through the same struggle.",
     },
 
     hero: {
         headline: "Stop wasting months applying to jobs that will never sponsor you.",
         subheadline: "I went from struggling to get interviews in the UK to building a system that helped 70+ international students get shortlisted using ATS-friendly CVs and real sponsorship data.",
         ctaPrimary: "Show me which companies actually sponsor",
-        trustLine: "ATS CV Template + 179+ Sponsorship Companies • Instant access • Updated monthly",
+        trustLine: "My ATS CV Template + 179+ Sponsorship Companies • Instant access • Updated monthly",
     },
 
     sneakPeek: {
         title: "Preview",
         cvCard: {
-            label: "ATS CV Template (UK Format)",
+            label: "My ATS CV Template (UK Format)",
             subtext: "Built-in guidance included",
         },
         databaseCard: {
@@ -59,13 +59,13 @@ export const content = {
                 }
             ],
         },
-        bottomLine: "This is not theory — it's a real system you can use today.",
+        bottomLine: "This is not theory. It's a real system you can use today for just £39.",
     },
 
     painPoints: {
         title: "This is for you if…",
         points: [
-            "You keep applying on LinkedIn and Indeed but never hear back",
+            "You keep applying on LinkedIn, Indeed and job boards but never hear back",
             "You don't know which companies actually sponsor international students",
             "You spend hours tailoring your CV for companies that don't sponsor",
             "You feel your visa clock ticking and panic is creeping in"
@@ -78,7 +78,7 @@ export const content = {
             title: "My ATS Friendly CV",
             intro: "Your CV doesn't need to be pretty. It needs to get past UK hiring software.",
             bullets: [
-                "ATS-friendly CV template (UK format, Word)",
+                "My ATS-friendly CV template (UK format, Word)",
                 "Built-in guidance/instructions telling you what to write in every section",
                 "Recruiter-friendly layout + keyword structure",
                 "Section-wise example bullet points (so students understand how to write impact)"
@@ -100,12 +100,12 @@ export const content = {
     story: {
         title: "Why I built this",
         text: "I came to the UK with a Master's degree and still struggled to get responses. I was applying blindly to companies that could never sponsor me, and my CV wasn't getting past hiring software. After fixing my own system, I landed my UK job within 25 days of graduating — and then started helping other international students do the same. This product is that system.",
-        image: "/mk-profile.jpeg",
+        image: "/mk-profile.png",
     },
 
     testimonials: {
-        title: "Trusted by Professionals",
-        subtitle: "Join hundreds of international students who secured sponsored roles.",
+        title: "Trusted by Students/Graduates",
+        subtitle: "Join hundreds of international students who successfully secured jobs.",
         items: [
             { image: "/testimonial_1.png", alt: "Student Success Story 1" },
             { image: "/testimonial_2.png", alt: "Student Success Story 2" },
@@ -120,7 +120,7 @@ export const content = {
 
     workWithMe: {
         title: "Want me to help you directly?",
-        text: "I also offer 1-to-1 CV rewriting and LinkedIn optimisation for international students who want personalised support. If you want me to review or rewrite your CV, you can reach out after purchase or via LinkedIn.",
+        text: "I also offer 1-to-1 CV Rewriting and LinkedIn Optimisation for international students who want personalised support. If you want me to review or rewrite your CV, you can reach out after purchase or via LinkedIn.",
         ctaText: "Work with Mohammed directly",
         ctaLink: "https://www.linkedin.com/in/mohammedkokkancherry/", // Update with actual LinkedIn
     },
@@ -138,7 +138,7 @@ export const content = {
             },
             {
                 question: "Is this beginner-friendly?",
-                answer: "Yes. The template guides you on what to write in every section."
+                answer: "Yes. The template guides you on what to write in every section. The company list has an instructions tab which is pretty-much self explanatory"
             },
             {
                 question: "How do I get access?",
@@ -155,7 +155,7 @@ export const content = {
     finalCTA: {
         headline: "You don't need more applications. You need the right targets.",
         ctaPrimary: "Get Instant Access — £39",
-        trustLine: "ATS CV Template + Sponsorship Company List • Instant download",
+        trustLine: "My ATS CV Template + Sponsorship Company List • Instant download",
     },
 
     payhip: {
