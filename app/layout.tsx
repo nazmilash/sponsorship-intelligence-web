@@ -1,9 +1,14 @@
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
+import { content } from '@/content.config'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata = {
+  title: content.metadata.title,
+  description: content.metadata.description,
+}
 
 export default function RootLayout({
   children,
@@ -12,8 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased bg-background text-foreground`}>
+      <body className={inter.className}>
         {children}
         <Script src="https://payhip.com/payhip.js" strategy="lazyOnload" />
       </body>
