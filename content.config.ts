@@ -115,7 +115,7 @@ export const content = {
             { image: "/testimonial_6.png", alt: "Student Success Story 6" },
         ],
         ctaText: "View all success stories on LinkedIn",
-        ctaLink: "https://linkedin.com/in/mohammedkokkancherry/"
+        ctaLink: "https://www.linkedin.com/in/mohammedkokkancherry/details/recommendations/"
     },
 
     workWithMe: {
