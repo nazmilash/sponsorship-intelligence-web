@@ -1,36 +1,48 @@
 import Hero from '@/components/Hero'
+import SneakPeek from '@/components/SneakPeek'
 import PainPoints from '@/components/PainPoints'
+import WhatYouGet from '@/components/WhatYouGet'
 import MentorBio from '@/components/MentorBio'
-import Deliverables from '@/components/Deliverables'
-import DatabasePreview from '@/components/DatabasePreview'
 import SocialProof from '@/components/SocialProof'
+import WorkWithMe from '@/components/WorkWithMe'
+import FAQ from '@/components/FAQ'
 import Pricing from '@/components/Pricing'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-brand-purple/20 selection:text-brand-purple">
+    <main className="min-h-screen bg-white text-slate-900 overflow-x-hidden">
 
-      {/* 1. Hero Section (Overhauled) */}
+      {/* Section 1: Hero with London Landscape */}
       <Hero />
 
-      {/* 2. Pain Points (New 'This Is For You') */}
+      {/* Section 2: Sneak Peek - CV + Database Preview */}
+      <SneakPeek />
+
+      {/* Section 3: "This is for you if..." */}
       <PainPoints />
 
-      {/* 3. The Mentor's Story (My Journey) */}
+      {/* Section 4: What You Get - Two Boxes */}
+      <WhatYouGet />
+
+      {/* Section 5: My Story */}
       <MentorBio />
 
-      {/* 4. The Database Preview (Blurred Sheet - Existing) */}
-      <DatabasePreview />
-
-      {/* 5. Testimonials (Updated Grid) */}
+      {/* Section 6: Testimonials */}
       <SocialProof />
 
-      {/* 6. Pricing & Guarantee (Existing) */}
+      {/* Section 7: Work With Me - Small Card */}
+      <WorkWithMe />
+
+      {/* Section 8: FAQ Accordion */}
+      <FAQ />
+
+      {/* Section 9: Final CTA */}
       <Pricing />
 
-      <footer className="py-12 text-center text-foreground-muted text-sm border-t border-utility-border bg-background-alt">
-        <p>© 2026 Sponsorship Intelligence. All rights reserved.</p>
-        <p className="mt-2 text-xs text-foreground-muted/60">Not affiliated with the UK Home Office.</p>
+      {/* Footer */}
+      <footer className="py-8 text-center text-slate-500 text-sm bg-slate-50">
+        <p>© 2026 UK Sponsorship System. All rights reserved.</p>
+        <p className="mt-2 text-xs">Not affiliated with the UK Home Office.</p>
       </footer>
     </main>
   )
