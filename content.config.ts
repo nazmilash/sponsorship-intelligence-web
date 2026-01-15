@@ -107,12 +107,12 @@ export const content = {
         title: "Trusted by Professionals",
         subtitle: "Join hundreds of international students who secured sponsored roles.",
         items: [
-            { image: "/Testimony_1.png", alt: "Success Story 1", name: "Student A", role: "Sponsored in Finance" },
-            { image: "/Testimony_2.png", alt: "Success Story 2", name: "Student B", role: "Sponsored in Tech" },
-            { image: "/Testimony_3.png", alt: "Success Story 3", name: "Student C", role: "Sponsored in Healthcare" },
-            { image: "https://ui-avatars.com/api/?name=Sarah+M&background=random", alt: "Success Story 4", name: "Sarah M.", role: "Sponsored in Marketing" },
-            { image: "https://ui-avatars.com/api/?name=David+K&background=random", alt: "Success Story 5", name: "David K.", role: "Sponsored in Engineering" },
-            { image: "https://ui-avatars.com/api/?name=James+L&background=random", alt: "Success Story 6", name: "James L.", role: "Sponsored in Data" },
+            { image: "/testimonial_1.png", alt: "Student Success Story 1" },
+            { image: "/testimonial_2.png", alt: "Student Success Story 2" },
+            { image: "/testimonial_3.png", alt: "Student Success Story 3" },
+            { image: "/testimonial_4.png", alt: "Student Success Story 4" },
+            { image: "/testimonial_5.png", alt: "Student Success Story 5" },
+            { image: "/testimonial_6.png", alt: "Student Success Story 6" },
         ],
         ctaText: "View all success stories on LinkedIn",
         ctaLink: "https://linkedin.com/in/mohammedkokkancherry/"

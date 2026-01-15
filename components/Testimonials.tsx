@@ -5,7 +5,7 @@ export default function Testimonials() {
     const { testimonials } = content;
 
     return (
-        <section className="py-24 bg-slate-50">
+        <section className="py-24 bg-white">
             <div className="utility-container">
                 <div className="text-center mb-16">
                     <h2 className="mb-4">{testimonials.title}</h2>
@@ -14,11 +14,14 @@ export default function Testimonials() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
+                {/* Single Column Stacked Layout */}
+                <div className="max-w-4xl mx-auto space-y-8 mb-16">
                     {testimonials.items.map((item, idx) => (
-                        <div key={idx} className="bg-white border border-gray-100 shadow-sm rounded-2xl p-6 hover:shadow-md transition-all duration-300">
-                            {/* For real screenshots, we show the image. For placeholders, we simulate a card */}
-                            <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-slate-100">
+                        <div
+                            key={idx}
+                            className="bg-white border border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-lg transition-all duration-300"
+                        >
+                            <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-50">
                                 <Image
                                     src={item.image}
                                     alt={item.alt}
@@ -26,13 +29,6 @@ export default function Testimonials() {
                                     className="object-contain"
                                 />
                             </div>
-                            {/* Optional: Add name/role if available and not just a screenshot */}
-                            {item.name && (
-                                <div className="mt-4 text-center">
-                                    <p className="font-semibold text-slate-900">{item.name}</p>
-                                    <p className="text-sm text-slate-500">{item.role}</p>
-                                </div>
-                            )}
                         </div>
                     ))}
                 </div>
