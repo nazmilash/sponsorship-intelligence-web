@@ -19,9 +19,9 @@ export default function Testimonials() {
                     {testimonials.items.map((item, idx) => (
                         <div
                             key={idx}
-                            className="bg-white border border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-lg transition-all duration-300"
+                            className="bg-transparent"
                         >
-                            <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-50">
+                            <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300">
                                 <Image
                                     src={item.image}
                                     alt={item.alt}
