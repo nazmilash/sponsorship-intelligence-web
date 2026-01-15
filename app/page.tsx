@@ -3,7 +3,7 @@ import SneakPeek from '@/components/SneakPeek'
 import PainPoints from '@/components/PainPoints'
 import WhatYouGet from '@/components/WhatYouGet'
 import MentorBio from '@/components/MentorBio'
-import SocialProof from '@/components/SocialProof'
+import Testimonials from '@/components/Testimonials'
 import WorkWithMe from '@/components/WorkWithMe'
 import FAQ from '@/components/FAQ'
 import Pricing from '@/components/Pricing'
@@ -38,7 +38,7 @@ export default function Home() {
       <hr className="border-gray-100" />
 
       {/* Section 6: Testimonials */}
-      <SocialProof />
+      <Testimonials />
 
       <hr className="border-gray-100" />
 

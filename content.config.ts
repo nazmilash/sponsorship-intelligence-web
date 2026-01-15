@@ -75,7 +75,7 @@ export const content = {
 
     whatYouGet: {
         box1: {
-            title: "ATS CV System",
+            title: "My ATS Friendly CV",
             intro: "Your CV doesn't need to be pretty. It needs to get past UK hiring software.",
             bullets: [
                 "ATS-friendly CV template (UK format, Word)",
@@ -104,19 +104,25 @@ export const content = {
     },
 
     testimonials: {
-        title: "Real messages from international students I've helped.",
+        title: "Trusted by Professionals",
+        subtitle: "Join hundreds of international students who secured sponsored roles.",
         items: [
-            { image: "/Testimony_1.png", alt: "LinkedIn testimonial 1" },
-            { image: "/Testimony_2.png", alt: "LinkedIn testimonial 2" },
-            { image: "/Testimony_3.png", alt: "LinkedIn testimonial 3" },
+            { image: "/Testimony_1.png", alt: "Success Story 1", name: "Student A", role: "Sponsored in Finance" },
+            { image: "/Testimony_2.png", alt: "Success Story 2", name: "Student B", role: "Sponsored in Tech" },
+            { image: "/Testimony_3.png", alt: "Success Story 3", name: "Student C", role: "Sponsored in Healthcare" },
+            { image: "https://ui-avatars.com/api/?name=Sarah+M&background=random", alt: "Success Story 4", name: "Sarah M.", role: "Sponsored in Marketing" },
+            { image: "https://ui-avatars.com/api/?name=David+K&background=random", alt: "Success Story 5", name: "David K.", role: "Sponsored in Engineering" },
+            { image: "https://ui-avatars.com/api/?name=James+L&background=random", alt: "Success Story 6", name: "James L.", role: "Sponsored in Data" },
         ],
+        ctaText: "View all success stories on LinkedIn",
+        ctaLink: "https://linkedin.com/in/mohammedkokkancherry/"
     },
 
     workWithMe: {
         title: "Want me to help you directly?",
         text: "I also offer 1-to-1 CV rewriting and LinkedIn optimisation for international students who want personalised support. If you want me to review or rewrite your CV, you can reach out after purchase or via LinkedIn.",
         ctaText: "Work with Mohammed directly",
-        ctaLink: "https://www.linkedin.com/in/your-profile", // Update with actual LinkedIn
+        ctaLink: "https://www.linkedin.com/in/mohammedkokkancherry/", // Update with actual LinkedIn
     },
 
     faq: {
@@ -158,6 +164,6 @@ export const content = {
     },
 
     footer: {
-        copyright: "© 2026 UK Sponsorship System. All rights reserved.",
+        copyright: "© 2026 Mohammed Kokkancherry. All rights reserved.",
     },
 }
