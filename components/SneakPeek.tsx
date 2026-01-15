@@ -11,7 +11,7 @@ export default function SneakPeek() {
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
                     {/* Card A: CV Template Preview */}
-                    <div className="utility-card p-6">
+                    <div className="utility-card p-6 flex flex-col h-full">
                         <div className="mb-4">
                             <h3 className="text-2xl font-semibold mb-2">{sneakPeek.cvCard.label}</h3>
                             <p className="text-sm text-slate-600">{sneakPeek.cvCard.subtext}</p>
@@ -25,10 +25,10 @@ export default function SneakPeek() {
                                 className="object-cover object-top"
                             />
                         </div>
-                        <div className="mt-4 text-center">
+                        <div className="mt-6 text-center mt-auto">
                             <a
                                 href={content.payhip.embedUrl}
-                                className="payhip-buy-button inline-flex items-center justify-center px-6 py-2 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition"
+                                className="payhip-buy-button btn-primary w-full justify-center"
                                 data-payhip
                             >
                                 Grab yours now
@@ -37,7 +37,7 @@ export default function SneakPeek() {
                     </div>
 
                     {/* Card B: Database Preview */}
-                    <div className="utility-card p-6">
+                    <div className="utility-card p-6 flex flex-col h-full">
                         <div className="mb-4">
                             <h3 className="text-2xl font-semibold mb-2">{sneakPeek.databaseCard.label}</h3>
                             <p className="text-sm text-slate-600">First 4 companies from 179+ verified sponsors</p>
@@ -78,15 +78,13 @@ export default function SneakPeek() {
                         </div>
 
                         {/* Unlock overlay */}
-                        <div className="mt-6 text-center">
+                        <div className="mt-6 text-center mt-auto">
                             <a
                                 href={content.payhip.embedUrl}
-                                className="payhip-buy-button block w-full p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg border border-blue-200 text-center hover:shadow-md transition group"
+                                className="payhip-buy-button btn-primary w-full justify-center group"
                                 data-payhip
                             >
-                                <span className="text-sm font-semibold text-blue-900 group-hover:text-blue-700">
-                                    🔒 Unlock 179+ companies
-                                </span>
+                                <span className="mr-2">🔒</span> Unlock 179+ companies
                             </a>
                         </div>
                     </div>
