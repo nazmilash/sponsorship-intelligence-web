@@ -65,7 +65,7 @@ export const content = {
     painPoints: {
         title: "This is for you if…",
         points: [
-            "You keep applying on LinkedIn, Indeed and job boards but never hear back",
+            "You keep applying on LinkedIn, Indeed and Job Boards but never hear back",
             "You don't know which companies actually sponsor international students",
             "You spend hours tailoring your CV for companies that don't sponsor",
             "You feel your visa clock ticking and panic is creeping in"
@@ -134,11 +134,11 @@ export const content = {
             },
             {
                 question: "Will this guarantee me a job or sponsorship?",
-                answer: "No — but it removes guesswork and helps you focus only on companies that can legally sponsor, so you stop wasting applications."
+                answer: "No, but it removes guesswork and helps you focus only on companies that can legally sponsor, so you stop wasting applications."
             },
             {
                 question: "Is this beginner-friendly?",
-                answer: "Yes. The template guides you on what to write in every section. The company list has an instructions tab which is pretty-much self explanatory"
+                answer: "Yes. The template guides you on what to write in every section. The company list has an instructions tab which is pretty-much self explanatory."
             },
             {
                 question: "How do I get access?",
