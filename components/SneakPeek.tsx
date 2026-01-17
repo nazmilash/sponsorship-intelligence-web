@@ -11,13 +11,13 @@ export default function SneakPeek() {
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
                     {/* Card A: CV Template Preview */}
-                    <div className="utility-card p-6 flex flex-col h-full">
+                    <div className="utility-card p-4 md:p-6 flex flex-col h-full">
                         <div className="mb-4">
                             <h3 className="text-2xl font-semibold mb-2">{sneakPeek.cvCard.label}</h3>
                             <p className="text-sm text-slate-600">{sneakPeek.cvCard.subtext}</p>
                         </div>
 
-                        <div className="blur-bottom relative bg-slate-100 rounded-lg overflow-hidden border border-slate-200 h-[350px] md:h-[500px]">
+                        <div className="blur-bottom relative bg-slate-100 rounded-lg overflow-hidden border border-slate-200 h-[280px] md:h-[500px]">
                             <Image
                                 src="/cv-preview.png"
                                 alt="ATS-Friendly CV Template Preview"
@@ -37,7 +37,7 @@ export default function SneakPeek() {
                     </div>
 
                     {/* Card B: Database Preview */}
-                    <div className="utility-card p-6 flex flex-col h-full">
+                    <div className="utility-card p-4 md:p-6 flex flex-col h-full">
                         <div className="mb-4">
                             <h3 className="text-2xl font-semibold mb-2">{sneakPeek.databaseCard.label}</h3>
                             <p className="text-sm text-slate-600">First 4 companies from 179+ verified sponsors</p>
