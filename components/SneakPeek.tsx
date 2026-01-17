@@ -9,9 +9,9 @@ export default function SneakPeek() {
             <div className="utility-container">
                 <h2 className="text-center mb-12">{sneakPeek.title}</h2>
 
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div className="grid md:grid-cols-2 gap-4 md:gap-8 mb-8">
                     {/* Card A: CV Template Preview */}
-                    <div className="utility-card p-4 md:p-6 flex flex-col h-full">
+                    <div className="utility-card p-4 md:p-6 flex flex-col h-full max-w-full">
                         <div className="mb-4">
                             <h3 className="text-2xl font-semibold mb-2">{sneakPeek.cvCard.label}</h3>
                             <p className="text-sm text-slate-600">{sneakPeek.cvCard.subtext}</p>
@@ -37,7 +37,7 @@ export default function SneakPeek() {
                     </div>
 
                     {/* Card B: Database Preview */}
-                    <div className="utility-card p-4 md:p-6 flex flex-col h-full">
+                    <div className="utility-card p-4 md:p-6 flex flex-col h-full max-w-full">
                         <div className="mb-4">
                             <h3 className="text-2xl font-semibold mb-2">{sneakPeek.databaseCard.label}</h3>
                             <p className="text-sm text-slate-600">First 4 companies from 179+ verified sponsors</p>
