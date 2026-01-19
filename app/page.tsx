@@ -57,7 +57,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 text-center text-slate-500 text-sm bg-slate-50">
-        <p>© 2026 UK Sponsorship System. All rights reserved.</p>
+        <p>© 2026 Mohammed Kokkancherry. All rights reserved.</p>
         <p className="mt-2 text-xs">Not affiliated with the UK Home Office.</p>
       </footer>
     </main>

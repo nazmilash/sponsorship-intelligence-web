@@ -59,7 +59,7 @@ export const content = {
                 }
             ],
         },
-        bottomLine: "This is not theory. It's a real system you can use today for just £39.",
+        bottomLine: "This is not theory. It's a real system you can use today for just £27.",
     },
 
     painPoints: {
@@ -154,13 +154,13 @@ export const content = {
 
     finalCTA: {
         headline: "You don't need more applications. You need the right targets.",
-        ctaPrimary: "Get Instant Access — £39",
+        ctaPrimary: "Get Instant Access — £27",
         trustLine: "My ATS CV Template + Sponsorship Company List • Instant download",
     },
 
     payhip: {
         embedUrl: "https://payhip.com/b/cU6dR",
-        buttonText: "Get Instant Access — £39",
+        buttonText: "Get Instant Access — £27",
     },
 
     footer: {
