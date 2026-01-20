@@ -107,7 +107,7 @@ export const content = {
         title: "Trusted by Students/Graduates",
         subtitle: "Join hundreds of international students who successfully secured jobs.",
         items: [
-            { image: "/testimonial_1.png", alt: "Student Success Story 1" },
+
             { image: "/testimonial_2.png", alt: "Student Success Story 2" },
             { image: "/testimonial_3.png", alt: "Student Success Story 3" },
             { image: "/testimonial_4.png", alt: "Student Success Story 4" },
