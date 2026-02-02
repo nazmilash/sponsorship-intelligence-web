@@ -5,8 +5,8 @@ export const content = {
     },
 
     hero: {
-        headline: "You don't need more applications. You need better targets.",
-        subheadline: "I kept applying to roles that could never sponsor me — until I built a simple system to fix that. This is the same system I now share with other international students.",
+        headline: "I wish someone told me this in my first month in the UK",
+        subheadline: "I kept applying to roles that could never sponsor me until I built a simple system to fix that. This is the same system I now share with other international students.",
         ctaPrimary: "See the companies that can actually sponsor",
         trustLine: "My ATS CV Template + 179+ Sponsorship Companies • Instant access",
     },
@@ -59,7 +59,7 @@ export const content = {
                 }
             ],
         },
-        bottomLine: "This is not theory. It's a real system you can use today for just ",
+        bottomLine: "If this saves you even 2–3 weeks of applying to the wrong roles, it's already paid for itself.", applying to the wrong roles, it's already paid for itself.",
     },
 
     painPoints: {
@@ -90,7 +90,6 @@ export const content = {
             bullets: [
                 "179+ real UK companies that can sponsor Skilled Worker visas",
                 "Filtered by sector (Finance, Data, IT, Marketing, Healthcare, Engineering)",
-                "Verified and updated regularly (50+ companies added)",
                 "So every application is actually worth your time"
             ]
         },
@@ -99,7 +98,7 @@ export const content = {
 
     story: {
         title: "Why I built this",
-        text: "I realised I wasn't getting rejected because I was bad — I was applying blindly. Once I fixed where I applied and how my CV looked, things finally started moving.",
+        text: "I came to the UK with a Master's degree and still struggled to get responses. I was applying blindly to companies that could never sponsor me, and my CV wasn't getting past ATS hiring software. After fixing my own system, I landed my UK job within 25 days of graduating and then started helping other international students do the same. This product is that system.", my own system, I landed my UK job within 25 days of graduating and then started helping other international students do the same.This product is that system.",
         image: "/mk-profile.png",
     },
 
