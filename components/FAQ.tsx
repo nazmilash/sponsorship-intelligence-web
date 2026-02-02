@@ -48,15 +48,9 @@ export default function FAQ() {
 
                 {/* Risk Reversal */}
                 <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
-                    <p className="text-slate-700 leading-relaxed mb-3">
+                    <p className="text-slate-700 leading-relaxed">
                         {faq.riskReversal}
                     </p>
-                    <a
-                        href={`mailto:${faq.email}?subject=Need Help With The Resource`}
-                        className="inline-block bg-green-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-green-700 transition"
-                    >
-                        Email me: {faq.email}
-                    </a>
                 </div>
             </div>
         </section>

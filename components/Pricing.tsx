@@ -9,18 +9,16 @@ export default function Pricing() {
                 <div className="max-w-3xl mx-auto">
                     <h2 className="text-white mb-8">{finalCTA.headline}</h2>
 
-                    {/* Context Text */}
-                    <p className="text-blue-100 text-lg mb-6 max-w-2xl mx-auto">
-                        {content.pricing.contextText}
-                    </p>
+                    <div className="mb-8">
+                        <span className="inline-block bg-red-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4 animate-bounce">
+                            ⚠️ {content.pricing.urgencyText}
+                        </span>
 
-                    {/* Price Display - Clean, No Gimmicks */}
-                    <div className="flex items-center justify-center gap-4 mb-8">
-                        <span className="text-blue-200 text-3xl line-through">{content.pricing.original}</span>
-                        <span className="text-white text-6xl font-extrabold">{content.pricing.current}</span>
+                        <div className="flex items-center justify-center gap-4 mb-2">
+                            <span className="text-blue-200 text-2xl line-through decoration-red-500 decoration-2">{content.pricing.original}</span>
+                            <span className="text-white text-5xl font-extrabold">{content.pricing.current}</span>
+                        </div>
                     </div>
-
-                    <p className="text-blue-100 text-sm mb-8">{content.pricing.discountText}</p>
 
                     <a
                         href={payhip.embedUrl}
