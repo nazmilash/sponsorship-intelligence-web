@@ -59,7 +59,7 @@ export const content = {
                 }
             ],
         },
-        bottomLine: "If this saves you even 2–3 weeks of applying to the wrong roles, it's already paid for itself.", applying to the wrong roles, it's already paid for itself.",
+        bottomLine: "If this saves you even 2–3 weeks of applying to the wrong roles, it's already paid for itself.",
     },
 
     painPoints: {
@@ -98,7 +98,7 @@ export const content = {
 
     story: {
         title: "Why I built this",
-        text: "I came to the UK with a Master's degree and still struggled to get responses. I was applying blindly to companies that could never sponsor me, and my CV wasn't getting past ATS hiring software. After fixing my own system, I landed my UK job within 25 days of graduating and then started helping other international students do the same. This product is that system.", my own system, I landed my UK job within 25 days of graduating and then started helping other international students do the same.This product is that system.",
+        text: "I came to the UK with a Master's degree and still struggled to get responses. I was applying blindly to companies that could never sponsor me, and my CV wasn't getting past ATS hiring software. After fixing my own system, I landed my UK job within 25 days of graduating and then started helping other international students do the same. This product is that system.",
         image: "/mk-profile.png",
     },
 
