@@ -8,7 +8,7 @@ export const content = {
         headline: "Stop wasting months applying to jobs that will never sponsor you.",
         subheadline: "I went from struggling to get interviews in the UK to building a system that helped 70+ international students get shortlisted using ATS-friendly CVs and real sponsorship data.",
         ctaPrimary: "Show me which companies actually sponsor",
-        trustLine: "My ATS CV Template + 179+ Sponsorship Companies • Instant access • Updated monthly",
+        trustLine: "My ATS CV Template + 179+ Sponsorship Companies • Instant access",
     },
 
     sneakPeek: {
@@ -59,7 +59,7 @@ export const content = {
                 }
             ],
         },
-        bottomLine: "This is not theory. It's a real system you can use today for just £27.",
+        bottomLine: "This is not theory. It's a real system you can use today for just ",
     },
 
     painPoints: {
@@ -90,7 +90,7 @@ export const content = {
             bullets: [
                 "179+ real UK companies that can sponsor Skilled Worker visas",
                 "Filtered by sector (Finance, Data, IT, Marketing, Healthcare, Engineering)",
-                "Verified and updated monthly (50+ companies added each month)",
+                "Verified and updated regularly (50+ companies added)",
                 "So every application is actually worth your time"
             ]
         },
@@ -130,7 +130,7 @@ export const content = {
         items: [
             {
                 question: "What exactly is this product?",
-                answer: "This includes my UK ATS-friendly CV template with built-in step-by-step guidance (section by section + example bullet points), plus a 179+ company list of UK employers who can sponsor Skilled Worker visas — updated monthly."
+                answer: "This includes my UK ATS-friendly CV template with built-in step-by-step guidance (section by section + example bullet points), plus a 179+ company list of UK employers who can sponsor Skilled Worker visas."
             },
             {
                 question: "Will this guarantee me a job or sponsorship?",
@@ -143,10 +143,6 @@ export const content = {
             {
                 question: "How do I get access?",
                 answer: "Instant download after payment."
-            },
-            {
-                question: "How often is the list updated?",
-                answer: "Monthly (50+ companies added each month)."
             }
         ],
         riskReversal: "If you don't find value in this system, email within 7 days and I'll help you understand how to use it properly.",
@@ -154,13 +150,20 @@ export const content = {
 
     finalCTA: {
         headline: "You don't need more applications. You need the right targets.",
-        ctaPrimary: "Get Instant Access — £27",
+        ctaPrimary: "Get Instant Access — ",
         trustLine: "My ATS CV Template + Sponsorship Company List • Instant download",
+    },
+
+    pricing: {
+        original: "£27",
+        current: "£19",
+        discountText: "Limited Time Offer - Save 30%",
+        urgencyText: "Only available for a short time"
     },
 
     payhip: {
         embedUrl: "https://payhip.com/b/cU6dR",
-        buttonText: "Get Instant Access — £27",
+        buttonText: "Get Instant Access — ",
     },
 
     footer: {

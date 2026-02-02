@@ -91,9 +91,16 @@ export default function SneakPeek() {
                 </div>
 
                 {/* Bottom tagline */}
-                <p className="text-center text-lg md:text-xl font-semibold text-slate-800 max-w-2xl mx-auto">
-                    {sneakPeek.bottomLine}
-                </p>
+                <div className="text-center max-w-2xl mx-auto">
+                    <p className="text-lg md:text-xl font-semibold text-slate-800 mb-2">
+                        {sneakPeek.bottomLine}
+                        <span className="line-through text-slate-500 mx-2">{content.pricing.original}</span>
+                        <span className="text-red-600 font-bold text-2xl">{content.pricing.current}</span>
+                    </p>
+                    <p className="text-sm text-red-600 font-medium animate-pulse">
+                        ⚠️ {content.pricing.discountText}
+                    </p>
+                </div>
             </div>
         </section>
     );
