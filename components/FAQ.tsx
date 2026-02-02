@@ -48,9 +48,22 @@ export default function FAQ() {
 
                 {/* Risk Reversal */}
                 <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
-                    <p className="text-slate-700 leading-relaxed">
+                    <p className="text-slate-700 leading-relaxed mb-4">
                         {faq.riskReversal}
                     </p>
+                    <div className="flex items-center justify-center gap-2">
+                        <span className="text-slate-700 font-semibold">Email ID:</span>
+                        <button
+                            onClick={() => {
+                                navigator.clipboard.writeText(faq.email);
+                                alert('Email copied to clipboard!');
+                            }}
+                            className="text-blue-600 hover:text-blue-700 underline cursor-pointer font-semibold"
+                            title="Click to copy email"
+                        >
+                            {faq.email}
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

@@ -97,9 +97,6 @@ export default function SneakPeek() {
                         <span className="line-through text-slate-500 mx-2">{content.pricing.original}</span>
                         <span className="text-red-600 font-bold text-2xl">{content.pricing.current}</span>
                     </p>
-                    <p className="text-sm text-red-600 font-medium animate-pulse">
-                        ⚠️ {content.pricing.discountText}
-                    </p>
                 </div>
             </div>
         </section>
