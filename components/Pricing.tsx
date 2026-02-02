@@ -10,10 +10,6 @@ export default function Pricing() {
                     <h2 className="text-white mb-8">{finalCTA.headline}</h2>
 
                     <div className="mb-8">
-                        <span className="inline-block bg-red-500 text-white px-4 py-1 rounded-full text-sm font-bold mb-4 animate-bounce">
-                            ⚠️ {content.pricing.urgencyText}
-                        </span>
-
                         <div className="flex items-center justify-center gap-4 mb-2">
                             <span className="text-blue-200 text-2xl line-through decoration-red-500 decoration-2">{content.pricing.original}</span>
                             <span className="text-white text-5xl font-extrabold">{content.pricing.current}</span>
