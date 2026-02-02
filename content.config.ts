@@ -5,16 +5,16 @@ export const content = {
     },
 
     hero: {
-        headline: "Stop wasting months applying to jobs that will never sponsor you.",
-        subheadline: "I went from struggling to get interviews in the UK to building a system that helped 70+ international students get shortlisted using ATS-friendly CVs and real sponsorship data.",
-        ctaPrimary: "Show me which companies actually sponsor",
+        headline: "You don't need more applications. You need better targets.",
+        subheadline: "I kept applying to roles that could never sponsor me — until I built a simple system to fix that. This is the same system I now share with other international students.",
+        ctaPrimary: "See the companies that can actually sponsor",
         trustLine: "My ATS CV Template + 179+ Sponsorship Companies • Instant access",
     },
 
     sneakPeek: {
         title: "Preview",
         cvCard: {
-            label: "My ATS CV Template (UK Format)",
+            label: "The exact CV format I use with students",
             subtext: "Built-in guidance included",
         },
         databaseCard: {
@@ -70,7 +70,7 @@ export const content = {
             "You spend hours tailoring your CV for companies that don't sponsor.",
             "You feel your visa clock ticking and panic is creeping in."
         ],
-        closingLine: "If any of this sounds like you, you're not broken. Your system is.",
+        closingLine: "If any of this sounds familiar, honestly you're not failing, you're just missing clarity.",
     },
 
     whatYouGet: {
@@ -94,18 +94,18 @@ export const content = {
                 "So every application is actually worth your time"
             ]
         },
-        powerLine: "This is not a shortcut. It's removing the dead ends. I've done the hard work for you.",
+        powerLine: "",
     },
 
     story: {
         title: "Why I built this",
-        text: "I came to the UK with a Master's degree and still struggled to get responses. I was applying blindly to companies that could never sponsor me, and my CV wasn't getting past hiring software. After fixing my own system, I landed my UK job within 25 days of graduating — and then started helping other international students do the same. This product is that system.",
+        text: "I realised I wasn't getting rejected because I was bad — I was applying blindly. Once I fixed where I applied and how my CV looked, things finally started moving.",
         image: "/mk-profile.png",
     },
 
     testimonials: {
         title: "Trusted by Students/Graduates",
-        subtitle: "Join hundreds of international students who successfully secured jobs.",
+        subtitle: "What students told me after fixing their CV & targeting",
         items: [
 
             { image: "/testimonial_2.png", alt: "Student Success Story 2" },
@@ -145,7 +145,8 @@ export const content = {
                 answer: "Instant download after payment."
             }
         ],
-        riskReversal: "If you don't find value in this system, email within 7 days and I'll help you understand how to use it properly.",
+        riskReversal: "If you're confused about how to use it, email me within 7 days and I'll point you in the right direction.",
+        email: "mkokkancherry@gmail.com",
     },
 
     finalCTA: {
@@ -155,10 +156,10 @@ export const content = {
     },
 
     pricing: {
-        original: "£27",
+        original: "£39",
         current: "£19",
-        discountText: "Limited Time Offer - Save 30%",
-        urgencyText: "Only available for a short time"
+        discountText: "Intro price for students",
+        contextText: "If this saves you even 2–3 weeks of applying to the wrong roles, it's already paid for itself."
     },
 
     payhip: {
