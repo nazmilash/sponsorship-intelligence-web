@@ -97,6 +97,10 @@ export default function SneakPeek() {
                         <span className="line-through text-slate-500 mx-2">{content.pricing.original}</span>
                         <span className="text-red-600 font-bold text-2xl">{content.pricing.current}</span>
                     </p>
+                    <div className="mt-3">
+                        <p className="text-lg font-bold text-slate-800">Launch Price – £19</p>
+                        <p className="text-sm text-slate-600">This will increase once the launch window closes</p>
+                    </div>
                 </div>
             </div>
         </section>

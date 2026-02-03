@@ -142,6 +142,10 @@ export const content = {
             {
                 question: "How do I get access?",
                 answer: "Instant download after payment."
+            },
+            {
+                question: "Why is this priced at £19?",
+                answer: "This is launch pricing. I'm keeping it low initially so international students can access it easily. As the list grows and more sectors are added, the price will increase."
             }
         ],
         riskReversal: "If you're confused about how to use it, email me within 7 days and I'll point you in the right direction.",

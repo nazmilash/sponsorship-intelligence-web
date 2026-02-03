@@ -25,6 +25,8 @@ export default function Pricing() {
                         {finalCTA.ctaPrimary} {content.pricing.current}
                     </a>
 
+                    <p className="text-blue-200 text-sm mb-4">This price won't stay once the list expands</p>
+
                     <p className="text-blue-100 text-lg">
                         {finalCTA.trustLine}
                     </p>
