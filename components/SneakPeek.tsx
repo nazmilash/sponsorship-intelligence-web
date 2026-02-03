@@ -94,8 +94,6 @@ export default function SneakPeek() {
                 <div className="text-center max-w-2xl mx-auto">
                     <p className="text-lg md:text-xl font-semibold text-slate-800 mb-2">
                         {sneakPeek.bottomLine}
-                        <span className="line-through text-slate-500 mx-2">{content.pricing.original}</span>
-                        <span className="text-red-600 font-bold text-2xl">{content.pricing.current}</span>
                     </p>
                     <div className="mt-3">
                         <p className="text-lg font-bold text-slate-800">Launch Price – £19</p>
