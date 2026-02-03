@@ -96,7 +96,10 @@ export default function SneakPeek() {
                         {sneakPeek.bottomLine}
                     </p>
                     <div className="mt-3">
-                        <p className="text-lg font-bold text-slate-800">Launch Price – £19</p>
+                        <p className="text-lg text-slate-800">
+                            <span className="font-bold">Launch Price – </span>
+                            <span className="font-bold text-red-600">£19</span>
+                        </p>
                         <p className="text-sm text-slate-600">This will increase once the launch window closes</p>
                     </div>
                 </div>
